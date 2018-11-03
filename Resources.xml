@@ -1,2 +1,866 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Resource_Settings type="resource" />
+<Resource_Settings type="resource">
+  <Resource_Element>
+    <Main_Resource_ID>10000</Main_Resource_ID>
+    <Main_Resource_Name>Database</Main_Resource_Name>
+    <Default_Resource>SF_Local_DB</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>1</Resource_Type_ID>
+      <Resource_Type_Name>SF_Local_DB</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>DBMS</Name>
+        <ExpressionValue>21</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Library/Schema Name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Database name</Name>
+        <ExpressionValue>SF</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>20</ID>
+        <Name>DataB name - sort (Lowercase)</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>22</ID>
+        <Name>Filter Owner</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>12</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>23</ID>
+        <Name>ODBC Driver Name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>13</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>24</ID>
+        <Name>Filters data</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>14</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>25</ID>
+        <Name>Library Details</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>15</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Server</Name>
+        <ExpressionValue>%DB_SERVER_NAME%</ExpressionValue>
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Data Source name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Connect String</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Database alias</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>User</Name>
+        <ExpressionValue>sa</ExpressionValue>
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>Password</Name>
+        <ExpressionValue>7jZ7CJ62KOI=</ExpressionValue>
+        <DisplaySequenceID>8</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>Starting Owner</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>555</ID>
+        <Name>Offline</Name>
+        <ExpressionValue>False</ExpressionValue>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>106</Main_Resource_ID>
+    <Main_Resource_Name>Email</Main_Resource_Name>
+    <Default_Resource>Local Email</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>2</Resource_Type_ID>
+      <Resource_Type_Name>Local Email</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Server Type</Name>
+        <ExpressionValue>2</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>Password</Name>
+        <ExpressionValue>QVnk4tGMR3E=</ExpressionValue>
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Incoming Mail Server</Name>
+        <ExpressionValue>localhost</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Incoming Port</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Incoming Secure Connection</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Outgoing Mail Server</Name>
+        <ExpressionValue>localhost</ExpressionValue>
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Outgoing Port</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>Outgoing Secure Connection</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>From Address</Name>
+        <ExpressionValue>postmaster@magic.xpi.course.com</ExpressionValue>
+        <DisplaySequenceID>8</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>User</Name>
+        <ExpressionValue>postmaster</ExpressionValue>
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>109</Main_Resource_ID>
+    <Main_Resource_Name>FTP</Main_Resource_Name>
+    <Default_Resource>Our_ftp</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>3</Resource_Type_ID>
+      <Resource_Type_Name>Our_ftp</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>25</ID>
+        <Name>Server</Name>
+        <ExpressionValue>localhost</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>26</ID>
+        <Name>Protocol</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>27</ID>
+        <Name>Enable server validation</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>28</ID>
+        <Name>Validate against</Name>
+        <ExpressionValue>2</ExpressionValue>
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>29</ID>
+        <Name>Server validation file</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>30</ID>
+        <Name>Client authentication</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>31</ID>
+        <Name>User</Name>
+        <ExpressionValue>anonimous</ExpressionValue>
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>32</ID>
+        <Name>Password</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>8</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>33</ID>
+        <Name>Client private key file path</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>34</ID>
+        <Name>Encoding</Name>
+        <ExpressionValue>ISO_8859_1</ExpressionValue>
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>35</ID>
+        <Name>Locale Name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>12</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>36</ID>
+        <Name>Timeout in Miliseconds</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>13</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>37</ID>
+        <Name>Connect Mode</Name>
+        <ExpressionValue>PASSIVE</ExpressionValue>
+        <DisplaySequenceID>14</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>38</ID>
+        <Name>Number of Login Retries</Name>
+        <ExpressionValue>6</ExpressionValue>
+        <DisplaySequenceID>15</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>39</ID>
+        <Name>Delay Between Login Retries</Name>
+        <ExpressionValue>10</ExpressionValue>
+        <DisplaySequenceID>16</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>40</ID>
+        <Name>Use Secured FTP</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>17</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>41</ID>
+        <Name>Server Certificate Validation</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>18</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>42</ID>
+        <Name>Server Certificate File</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>19</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>43</ID>
+        <Name>Use Client Certificate</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>20</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>44</ID>
+        <Name>Client Certificate File</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>21</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>45</ID>
+        <Name>Client Certificate Password</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>22</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>46</ID>
+        <Name>Client private key Pass Phrase</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>8</Resource_Type_ID>
+      <Resource_Type_Name>FTP_Magic</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>25</ID>
+        <Name>Server</Name>
+        <ExpressionValue>ftp.magicsoftware.com</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>26</ID>
+        <Name>Protocol</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>27</ID>
+        <Name>Enable server validation</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>28</ID>
+        <Name>Validate against</Name>
+        <ExpressionValue>2</ExpressionValue>
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>29</ID>
+        <Name>Server validation file</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>30</ID>
+        <Name>Client authentication</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>31</ID>
+        <Name>User</Name>
+        <ExpressionValue>tempUpl</ExpressionValue>
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>32</ID>
+        <Name>Password</Name>
+        <ExpressionValue>07ZPHKBJGVY=</ExpressionValue>
+        <DisplaySequenceID>8</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>33</ID>
+        <Name>Client private key file path</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>34</ID>
+        <Name>Encoding</Name>
+        <ExpressionValue>ISO_8859_1</ExpressionValue>
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>35</ID>
+        <Name>Locale Name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>12</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>36</ID>
+        <Name>Timeout in Miliseconds</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>13</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>37</ID>
+        <Name>Connect Mode</Name>
+        <ExpressionValue>PASSIVE</ExpressionValue>
+        <DisplaySequenceID>14</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>38</ID>
+        <Name>Number of Login Retries</Name>
+        <ExpressionValue>6</ExpressionValue>
+        <DisplaySequenceID>15</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>39</ID>
+        <Name>Delay Between Login Retries</Name>
+        <ExpressionValue>10</ExpressionValue>
+        <DisplaySequenceID>16</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>40</ID>
+        <Name>Use Secured FTP</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>17</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>41</ID>
+        <Name>Server Certificate Validation</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>18</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>42</ID>
+        <Name>Server Certificate File</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>19</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>43</ID>
+        <Name>Use Client Certificate</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>20</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>44</ID>
+        <Name>Client Certificate File</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>21</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>45</ID>
+        <Name>Client Certificate Password</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>22</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>46</ID>
+        <Name>Client private key Pass Phrase</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>9</Resource_Type_ID>
+      <Resource_Type_Name>Local_FTP</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>25</ID>
+        <Name>Server</Name>
+        <ExpressionValue>localhost</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>26</ID>
+        <Name>Protocol</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>27</ID>
+        <Name>Enable server validation</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>28</ID>
+        <Name>Validate against</Name>
+        <ExpressionValue>2</ExpressionValue>
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>29</ID>
+        <Name>Server validation file</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>30</ID>
+        <Name>Client authentication</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>31</ID>
+        <Name>User</Name>
+        <ExpressionValue>anonymous</ExpressionValue>
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>32</ID>
+        <Name>Password</Name>
+        <ExpressionValue>/NwXLufxN/+r/LpBJQJTnw==</ExpressionValue>
+        <DisplaySequenceID>8</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>33</ID>
+        <Name>Client private key file path</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>34</ID>
+        <Name>Encoding</Name>
+        <ExpressionValue>ISO_8859_1</ExpressionValue>
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>35</ID>
+        <Name>Locale Name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>12</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>36</ID>
+        <Name>Timeout in Miliseconds</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>13</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>37</ID>
+        <Name>Connect Mode</Name>
+        <ExpressionValue>PASSIVE</ExpressionValue>
+        <DisplaySequenceID>14</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>38</ID>
+        <Name>Number of Login Retries</Name>
+        <ExpressionValue>6</ExpressionValue>
+        <DisplaySequenceID>15</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>39</ID>
+        <Name>Delay Between Login Retries</Name>
+        <ExpressionValue>10</ExpressionValue>
+        <DisplaySequenceID>16</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>40</ID>
+        <Name>Use Secured FTP</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>17</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>41</ID>
+        <Name>Server Certificate Validation</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>18</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>42</ID>
+        <Name>Server Certificate File</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>19</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>43</ID>
+        <Name>Use Client Certificate</Name>
+        <ExpressionValue>'FALSE'LOG</ExpressionValue>
+        <DisplaySequenceID>20</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>44</ID>
+        <Name>Client Certificate File</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>21</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>45</ID>
+        <Name>Client Certificate Password</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>22</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>46</ID>
+        <Name>Client private key Pass Phrase</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>7698</Main_Resource_ID>
+    <Main_Resource_Name>OData</Main_Resource_Name>
+    <Default_Resource>Priority_OData</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>4</Resource_Type_ID>
+      <Resource_Type_Name>Priority_OData</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Root URL</Name>
+        <ExpressionValue>https://www.eshbelsaas.com/ui/odata/Priority/tabmob.ini/tp/</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Metadata Headers</Name>
+        <ExpressionValue>Authorization: Basic dHA4OnRwMTIz</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>Authentication Type</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <ExpressionValueBlob />
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>User</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>Password</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Workstation</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>Domain</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>160</Main_Resource_ID>
+    <Main_Resource_Name>SAP B1 88</Main_Resource_Name>
+    <Default_Resource>SAP B1 88_1</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>5</Resource_Type_ID>
+      <Resource_Type_Name>SAP B1 88_1</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>Server</Name>
+        <ExpressionValue>10.1.2.13</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>10</ID>
+        <Name>DB Password</Name>
+        <ExpressionValue>gJlPmQchBXQ=</ExpressionValue>
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>11</ID>
+        <Name>DI API Version</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>12</ID>
+        <Name>License Server/SLD Server</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Company Database</Name>
+        <ExpressionValue>sapil-demo</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>User Name</Name>
+        <ExpressionValue>sapadm</ExpressionValue>
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>4</ID>
+        <Name>Password</Name>
+        <ExpressionValue>gJlPmQchBXQ=</ExpressionValue>
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>5</ID>
+        <Name>License Server</Name>
+        <ExpressionValue>10.1.2.13:30000</ExpressionValue>
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Language</Name>
+        <ExpressionValue>3</ExpressionValue>
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>7</ID>
+        <Name>DB Server Type</Name>
+        <ExpressionValue>8</ExpressionValue>
+        <DisplaySequenceID>8</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>8</ID>
+        <Name>Windows Authentication</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>9</ID>
+        <Name>DB User Name</Name>
+        <ExpressionValue>sa</ExpressionValue>
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>143</Main_Resource_ID>
+    <Main_Resource_Name>Salesforce</Main_Resource_Name>
+    <Default_Resource>SF</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>6</Resource_Type_ID>
+      <Resource_Type_Name>SF</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>1</ID>
+        <Name>User Name</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>11</ID>
+        <Name>Endpoint URL</Name>
+        <ExpressionValue>https://login.salesforce.com</ExpressionValue>
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>12</ID>
+        <Name>API version</Name>
+        <ExpressionValue>32.0</ExpressionValue>
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>13</ID>
+        <Name>OAuth Client Id</Name>
+        <ExpressionValue>EtC6Fyi19a3I9UZ1XpiykpUU6SuzQ1Ct4f+VW5JxXgMDDTvVO02YKNXkj4cSH4ccI2M1orRJLhXFAPLiHerzNZHZpLYXoRKSMQCbh0/dZVjl3qVZlRWhww==</ExpressionValue>
+        <DisplaySequenceID>7</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>14</ID>
+        <Name>OAuth Secret</Name>
+        <ExpressionValue>zR8xJy7ek0hUXT3AUuwMPXbwhAyc5zhq</ExpressionValue>
+        <DisplaySequenceID>8</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>15</ID>
+        <Name>OAuth Callback URL</Name>
+        <ExpressionValue>LcEqYBOmyHJJV4wEYFfNR6KzcPaalZoTUgk9xQAgnxzOYu6leqZ/v66vBiOYZTqf4U63aI2M4yE=</ExpressionValue>
+        <DisplaySequenceID>9</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>16</ID>
+        <Name>OAuth Refresh Token</Name>
+        <ExpressionValue>xaxpZ9e1L4IQ+zLbMcfpRhXdNgRmT+Q37g0HSkDkYbcUHCTqH/17p4oXTRw4AnzAxO7/AA6E05/RqGzps72G2gup5Hjx0ZO2HaG5UHtPTlZlMf12120jGw==</ExpressionValue>
+        <DisplaySequenceID>10</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>17</ID>
+        <Name>OAuth Refresh Token Status</Name>
+        <ExpressionValue>Available</ExpressionValue>
+        <DisplaySequenceID>11</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>18</ID>
+        <Name>Allow Field Truncation</Name>
+        <ExpressionValue>1</ExpressionValue>
+        <DisplaySequenceID>12</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>2</ID>
+        <Name>Password</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>3</ID>
+        <Name>ObjectsList</Name>
+        <ExpressionValue />
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>6</ID>
+        <Name>Connection Caching Level</Name>
+        <ExpressionValue>2</ExpressionValue>
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+  <Resource_Element>
+    <Main_Resource_ID>162</Main_Resource_ID>
+    <Main_Resource_Name>Sugar</Main_Resource_Name>
+    <Default_Resource>SugarViaConnector</Default_Resource>
+    <Main_Resource_Defintion>
+      <Resource_Type_ID>7</Resource_Type_ID>
+      <Resource_Type_Name>SugarViaConnector</Resource_Type_Name>
+      <Resource_Type_Description />
+      <Resource_Properties>
+        <ID>21</ID>
+        <Name>API version</Name>
+        <ExpressionValue>0</ExpressionValue>
+        <DisplaySequenceID>1</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>22</ID>
+        <Name>REST endpoint</Name>
+        <ExpressionValue>http://localhost/SuiteCRM/service/v4_1/rest.php</ExpressionValue>
+        <DisplaySequenceID>2</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>23</ID>
+        <Name>User Name</Name>
+        <ExpressionValue>admin</ExpressionValue>
+        <DisplaySequenceID>3</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>24</ID>
+        <Name>Password</Name>
+        <ExpressionValue>xkOornt95GQ=</ExpressionValue>
+        <DisplaySequenceID>4</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>25</ID>
+        <Name>Caching level</Name>
+        <ExpressionValue>2</ExpressionValue>
+        <DisplaySequenceID>5</DisplaySequenceID>
+      </Resource_Properties>
+      <Resource_Properties>
+        <ID>26</ID>
+        <Name>Platform</Name>
+        <ExpressionValue />
+        <ExpressionValueBlob />
+        <DisplaySequenceID>6</DisplaySequenceID>
+      </Resource_Properties>
+    </Main_Resource_Defintion>
+  </Resource_Element>
+</Resource_Settings>
