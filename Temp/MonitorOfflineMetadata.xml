@@ -6,16 +6,20 @@
     <Flow>
       <ID>1</ID>
       <Name>My Flow</Name>
-      <Step>
-        <ID>1</ID>
-        <Name>Save Message</Name>
-      </Step>
     </Flow>
     <Flow>
       <ID>2</ID>
       <Name>Branch2</Name>
+    </Flow>
+    <Flow>
+      <ID>3</ID>
+      <Name>V3</Name>
       <Step>
         <ID>1</ID>
+        <Name>Save Message</Name>
+      </Step>
+      <Step>
+        <ID>2</ID>
         <Name>NOP</Name>
       </Step>
     </Flow>

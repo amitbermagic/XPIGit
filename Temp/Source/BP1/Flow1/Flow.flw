@@ -4,7 +4,7 @@
     <ID>1</ID>
     <Order>1</Order>
     <Name>My Flow</Name>
-    <isInactive>false</isInactive>
+    <isInactive>true</isInactive>
     <isDisabled>false</isDisabled>
     <isTwoPhase>false</isTwoPhase>
     <isAutoStart>false</isAutoStart>
@@ -52,39 +52,7 @@
     <RootStepID>1</RootStepID>
     <HasTrigger>false</HasTrigger>
   </DrawProperties>
-  <Steps>
-    <row_Step>
-      <Properties>
-        <isGoTo>false</isGoTo>
-        <ParentStepID>0</ParentStepID>
-        <SortOrder>0</SortOrder>
-        <ID>1</ID>
-        <Name>Save Message</Name>
-        <IFCDefinition>6</IFCDefinition>
-        <ProcessMode>1</ProcessMode>
-        <isTwoPhase>false</isTwoPhase>
-        <isWait4Comp>false</isWait4Comp>
-        <isSavePoint>false</isSavePoint>
-        <CallLogicFlow>false</CallLogicFlow>
-        <isReturnXML>false</isReturnXML>
-        <isTrigger>false</isTrigger>
-      </Properties>
-      <iBoltService>
-        <SaveMSG>
-          <MSGString>
-            <ExpressionVal>J0hlbGxvdyBXb3JsZCc=</ExpressionVal>
-            <RuntimeExpression>J0hlbGxvdyBXb3JsZCc=</RuntimeExpression>
-            <ExpectedType>A</ExpectedType>
-            <Direction>I</Direction>
-          </MSGString>
-          <MSGBLOB>
-            <ExpectedType>B</ExpectedType>
-            <Direction>I</Direction>
-          </MSGBLOB>
-        </SaveMSG>
-      </iBoltService>
-    </row_Step>
-  </Steps>
+  <Steps />
   <Triggers />
   <TextElements />
   <Struct_Scheduler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />

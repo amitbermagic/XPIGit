@@ -18,7 +18,7 @@
       <Encoding>West European</Encoding>
       <ResourceFile>resources.xml</ResourceFile>
       <ServiceFile>services.xml</ServiceFile>
-      <DebugMode>false</DebugMode>
+      <DebugMode>true</DebugMode>
       <IsResSerPropChanged>false</IsResSerPropChanged>
     </Properties>
     <EnvInfo>
@@ -60,7 +60,7 @@
       <LocalProjPath />
     </VCInfo>
     <FlowAndBpLastId>
-      <LastFlowId>2</LastFlowId>
+      <LastFlowId>3</LastFlowId>
       <LastBpId>1</LastBpId>
     </FlowAndBpLastId>
     <ServerSettings>
